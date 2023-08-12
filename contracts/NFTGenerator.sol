@@ -15,7 +15,7 @@ contract NFTGenerator is ERC721URIStorage {
         string memory _symbol
     ) ERC721(_name, _symbol) {}
 
-    function mintChiknMarketPlaceNFT(
+    function mintNFT(
         address recipient,
         string memory tokenURI
     ) public returns (uint256) {
